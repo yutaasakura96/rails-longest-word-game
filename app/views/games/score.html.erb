@@ -1,0 +1,8 @@
+<div class='mb-3 container d-flex justify-content-between flex-column align-items-center'>
+  <h1 class='fs-1'>Result</h1>
+  <p class='fs-1 pb-2'>Your word:<%= @answer %></p>
+  <p class='fs-1 pb-2'><%= @time_result %></p>
+  <p class='fs-1 pb-2'><%= @score_result %></p>
+  <p class='fs-1 pb-2'>Result: <%= @result %></p>
+  <%= link_to 'Play Again', new_path, class: 'btn btn-primary fs-3'  %>
+</div>
